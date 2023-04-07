@@ -25,3 +25,6 @@ Next up is trying commands such as
 * cd
 * ls -lat
 * ls -a
+
+I tested the ls -lat command and ls -a command and got something like this below
+![Image](pic5.png)
