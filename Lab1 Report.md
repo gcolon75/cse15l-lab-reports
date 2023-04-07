@@ -16,7 +16,7 @@ the site should look like below.
 Once logging in click on the button that starts with cs15lsp23 and then continue on and reset your password.
 After doing this you should be able to use remote access on vs code, the first step to trying this is by
 typing in the terminal "ssh (your cs15lsp23 code)@ieng6.ucsd.edu" do not include quotes and paste your code in the parenteheses but delete them after.
-A prompt should pop up about connecting then type "yes" then something like this should appear:
+A prompt should pop up about connecting then type "yes" and then enter your password then something like this should appear:
 ![Image](pic4.PNG)
 
 # Trying out some commands
