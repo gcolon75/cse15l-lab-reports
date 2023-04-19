@@ -13,6 +13,7 @@ where you can access gitBash like the picture below
 Now you will need to take this [Link](https://sdacs.ucsd.edu/~icc/index.php) and log in using your student id and username
 the site should look like below.
 ![Image](pic3.PNG)
+
 Once logging in click on the button that starts with cs15lsp23 and then continue on and reset your password.
 After doing this you should be able to use remote access on vs code, the first step to trying this is by
 typing in the terminal ```ssh (your cs15lsp23 code)@ieng6.ucsd.edu``` do not include quotes and paste your code in the parenteheses but delete them after.It should look similar to below, I covered up my own ID in the red.
@@ -22,10 +23,10 @@ A prompt should pop up about connecting then type "yes" and then enter your pass
 
 # Trying out some commands
 Next up is trying commands such as
-```* cd ~```
-```* cd```
-```* ls -lat```
-```* ls -a```
+*```cd ~```
+*```cd```
+*```ls -lat```
+*```s -a```
 
 I tested the ls -lat command and ls -a command and got something like this below
 ![Image](pic5.PNG)
