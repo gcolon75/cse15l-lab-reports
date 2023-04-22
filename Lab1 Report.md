@@ -27,6 +27,10 @@ Next up is trying commands such as
 * ```cd```
 * ```ls -lat```
 * ```ls -a```
+* ```ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username```
+* ```cat /home/linux/ieng6/cs15lsp23/public/hello.txt```
+*``` cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/```
+
 
 I tested the ```ls -lat``` command and ```ls -a ```command and got something like this below
 ![Image](pic5.PNG)
