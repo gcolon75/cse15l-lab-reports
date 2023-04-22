@@ -31,5 +31,5 @@ Next up is trying commands such as
 I tested the ```ls -lat``` command and ```ls -a ```command and got something like this below
 ![Image](pic5.PNG)
 I also tested this using ```ls ```then ```cs .local```, then ```ls -a```, then ```cd share```
-![Image](Screenshot 2023-04-21 232810.png.PNG)
+![Image](Screenshot 2023-04-21 232810.PNG)
 
