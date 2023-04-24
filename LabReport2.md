@@ -68,4 +68,3 @@ This codewill correctly reverse a list with these fixes to the bugs. Now the for
 # Part 3
 ## Summary
 One thing I learned for the first time in Week 2 Lab was creating my own server! It was really cool being able to type code in visual studio then having it give me a link to a currently running website. And on top of that making code that what I type in the URL has an effect on the webpage. This was really cool to learn and experiment with and I honestly thought it was a lot harder to create something like that then it was. Applying it to my own web search in StringSearch was also very cool however the creation in the code was kind of confusing because I still dont understand all the hidden steps on how some of the methods work to get the webpage up and running.
-  
