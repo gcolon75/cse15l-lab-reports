@@ -1,4 +1,5 @@
-#Part 1 Creating StringServer.java  
+# Part 1 
+## Creating StringServer.java  
 First, I reviewed the previous search engine we were playing with in lab and tried to fully understand the code at hand.  
 I then applied the same engine that altered the numbers to alter the word that was being added by making it a lot more simple  
 and sdimply taking the string inside the specified index and then updating the page with it. Below is my code for StringSearch.java  
@@ -18,7 +19,8 @@ the user chose. It will then be printed on page like below. I tried the strings 
 After these I tested more, I tried "3". "4", "5", the result is below. Each time I did a new String it calls handle and updates newMessage with the new word  
 I want added and it makes sure the the path and parts are consistent otherwise it returns a error.  
 ![Image](LabReport1Pic4.PNG)  
-#Part 2 Choosing a bug  
+# Part 2 
+## Choosing a bug  
 The bug I chose was in this code snipper  
 ```public class ArrayExamples {
 
