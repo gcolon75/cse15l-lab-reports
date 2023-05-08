@@ -41,12 +41,11 @@ public void testReverseInPlace1(){
  ```
  The test above returns false because the order that it actually gives is {1,2,3,4} which is wrong because this method  
  is supposed to reverse the order of the array.  
-  ```@Test
-public void testReverseInPlace1(){
-  int[] input1 = {1}
-  ArrayExamples.reverseInPlace(input1);
-  asserArrayEquals(new int[]{3}, input1);
-  ```
+ ```@Test```
+```public void testReverseInPlace1(){```
+```int[] input1 = {1}```
+ ```ArrayExamples.reverseInPlace(input1);```
+  ```asserArrayEquals(new int[]{3}, input1);```
 The test above returns true because since it is only 1 element in the array it just assigns it to the same spot and that is correct. Below is a picture of the symptoms of running the tests with the bug.  
 ![Image](LabReport1Pic5.PNG)  
 Here we see that the test with 1 index passed while the other test with 4 elements did not.
