@@ -18,7 +18,6 @@ In this case it appears 23 times.
 In this example, we search for the word "could" in the file 1468-6708-3-1.txt and it counts how many times it appears.
 In this case it appears 6 times.
 
-
 ## 2 ```grep -i "[search]" [path and file]```
 This command will search for the word put in ```[search]``` (do not include brackets) in a case-insensitive manner in the file and return all the lines that match.
 ### Example 1
@@ -40,6 +39,7 @@ This command will search for all lines in the file that do not contain the word 
 In this example, we search for the word "i" in the file 1468-6708-3-10.txt and it returns the lines that do not contain "i". In this case it does not appear in many lines and returns all of those lines.
 ### Example 2
 ![Image](3.2.JPG)
+
 In this example, we search for the word "i" in the file 1468-6708-3-10.txt and it returns the lines that do not contain "a". In this case it does not appear in many lines and returns all of those lines.
 
 ## 4 ```grep -v"[search]" [path]/*```
@@ -51,5 +51,6 @@ This command will search for all lines in all the files inside the technical dir
 In this example, we search for the word "braid" in the file all the files in biomed and it returns the lines and files that do not contain "braid". In this case it does not appear in many lines and returns all of those lines.
 ### Example 2
 ![Image](4.2.JPG)
+
 In this example, we search for the word "braid" in the file all the files in plos and it returns the lines and files that do not contain "braid". In this case it does not appear in many lines and returns all of those lines.
 
