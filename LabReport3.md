@@ -50,12 +50,12 @@ In this example, we search for the word "i" in the file 1471-213X-1-12.txt and i
 This command will search for all lines in all the files inside the technical directory that do not contain the word in 
 ```[search]``` (do not include brackets) and return them along with the filenames.
 
-### Example 1 
-![Image](4.1.JPG) ```grep -v "braid" ./technical/biomed/*```
+### Example 1 ```grep -v "braid" ./technical/biomed/*```
+![Image](4.1.JPG) 
 
 In this example, we search for the word "braid" in the file all the files in biomed and it returns the lines and files that do not contain "braid". In this case it does not appear in many lines and returns all of those lines.
 
-### Example 2
-![Image](4.2.JPG)  ``` grep -v "braid" ./technical/plos/*```
+### Example 2  ``` grep -v "braid" ./technical/plos/*```
+![Image](4.2.JPG) 
 
 In this example, we search for the word "braid" in the file all the files in plos and it returns the lines and files that do not contain "braid". In this case it does not appear in many lines and returns all of those lines.
