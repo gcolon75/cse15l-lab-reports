@@ -3,7 +3,7 @@ grep is a very useful command that searches for a pattern in text files. I will 
 to incorperate grep with other options for interesting combinations.
 
 ## 1 ```grep -c "[search]" [path and file]```
-This combination will search for whatever you replace ```[search]```  (do not include brackets) and ```-c``` will count
+The source for this was [ChatGPT]:https://chat.openai.com/auth/login for this was This combination will search for whatever you replace ```[search]```  (do not include brackets) and ```-c``` will count
 the number of matching lines in the file and ```[path and file]``` is where you are searching.
 
 ### Example 1: ```grep -c "could" ./technical/biomed/1468-6708-3-1.txt```
@@ -48,7 +48,8 @@ In this example, we search for the word "i" in the file 1471-213X-1-12.txt and i
 
 ## 4 ```grep -v"[search]" [path]/*```
 This command will search for all lines in all the files inside the technical directory that do not contain the word in 
-```[search]``` (do not include brackets) and return them along with the filenames.
+```[search]``` (do not include brackets) and return them along with the filenames. Clearly there are
+many files that fit this pattern so this is only a snippet.
 
 ### Example 1 ```grep -v "braid" ./technical/biomed/*```
 ![Image](4.1.JPG) 
@@ -58,4 +59,5 @@ In this example, we search for the word "braid" in the file all the files in bio
 ### Example 2  ``` grep -v "braid" ./technical/plos/*```
 ![Image](4.2.JPG) 
 
-In this example, we search for the word "braid" in the file all the files in plos and it returns the lines and files that do not contain "braid". In this case it does not appear in many lines and returns all of those lines.
+In this example, we search for the word "braid" in the file all the files in plos and it returns the lines and files that do not contain "braid". In this case it does not appear in many lines and returns all of those lines. Clearly there are
+many files that fit this pattern so this is only a snippet.
