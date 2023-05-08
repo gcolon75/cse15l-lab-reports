@@ -3,7 +3,7 @@ grep is a very useful command that searches for a pattern in text files. I will 
 to incorperate grep with other options for interesting combinations.
 
 ## 1 ```grep -c "[search]" [path and file]```
-The source for this was [ChatGPT]:https://chat.openai.com/auth/login for this was This combination will search for whatever you replace ```[search]```  (do not include brackets) and ```-c``` will count
+The source for this was [ChatGPT](https://chat.openai.com/auth/login). For this was This combination will search for whatever you replace ```[search]```  (do not include brackets) and ```-c``` will count
 the number of matching lines in the file and ```[path and file]``` is where you are searching.
 
 ### Example 1: ```grep -c "could" ./technical/biomed/1468-6708-3-1.txt```
@@ -20,7 +20,7 @@ In this example, we search for the word "could" in the file 1468-6708-3-1.txt an
 In this case it appears 6 times.
 
 ## 2 ```grep -i "[search]" [path and file]```
-This command will search for the word put in ```[search]``` (do not include brackets) in a case-insensitive manner in the file and return all the lines that match.
+The source for this was [ChatGPT](https://chat.openai.com/auth/login). This command will search for the word put in ```[search]``` (do not include brackets) in a case-insensitive manner in the file and return all the lines that match.
 
 ### Example 1 ```grep -i "could" ./technical/biomed/1468-6708-3-1.txt```
 ![Image](2.1.JPG)
@@ -34,7 +34,7 @@ a line. In this case it appears in 6 lines.
 In this example, we search for the word "i" in the file 1468-6708-3-10.txt and it returns the lines it appears in. In this case it appears in many lines and returns all of those lines.
 
 ## 3 ```grep -v  "[search]" [path and file]```
-This command will search for all lines in the file that do not contain the word in ```[search]``` (do not include brackets).
+The source for this was [ChatGPT](https://chat.openai.com/auth/login). This command will search for all lines in the file that do not contain the word in ```[search]``` (do not include brackets).
 
 ### Example 1 ```grep -v "i" ./technical/biomed/1468-6708-3-1.txt```
 ![Image](3.1.JPG)
@@ -47,7 +47,7 @@ In this example, we search for the word "i" in the file 1468-6708-3-10.txt and i
 In this example, we search for the word "i" in the file 1471-213X-1-12.txt and it returns the lines that do not contain "a". In this case it does not appear in many lines and returns all of those lines.
 
 ## 4 ```grep -v"[search]" [path]/*```
-This command will search for all lines in all the files inside the technical directory that do not contain the word in 
+The source for this was [ChatGPT](https://chat.openai.com/auth/login). This command will search for all lines in all the files inside the technical directory that do not contain the word in 
 ```[search]``` (do not include brackets) and return them along with the filenames. Clearly there are
 many files that fit this pattern so this is only a snippet.
 
