@@ -7,10 +7,14 @@ This combination will search for whatever you replace ```[search]```  (do not in
 the number of matching lines in the file and ```[path and file]``` is where you are searching.
 ### Example 1
 ![Image](1.1.JPG)
+
 In this example, we search for the word "could" in the file chapter-1.txt and it counts how many times it appears.
 In this case it appears 23 times.
+
 ### Example 2
+
 ![Image](1.2.JPG)
+
 In this example, we search for the word "could" in the file 1468-6708-3-1.txt and it counts how many times it appears.
 In this case it appears 6 times.
 
@@ -19,23 +23,33 @@ In this case it appears 6 times.
 This command will search for the word put in ```[search]``` (do not include brackets) in a case-insensitive manner in the file and return all the lines that match.
 ### Example 1
 ![Image](2.1.JPG)
-In this example, we search for the word "i" in the file 1468-6708-3-1.txt and it counts how many lines it appears in
+
+In this example, we search for the word "i" in the file 1468-6708-3-1.txt and it returns the lines it appears in
 a line. In this case it appears in 6 lines.
+
 ### Example 2
 ![Image](2.2.JPG)
-In this example, we search for the word "i" in the file 1468-6708-3-10.txt and it counts how many lines it appears in. In this case it appears in many lines and returns all of those lines.
+
+In this example, we search for the word "i" in the file 1468-6708-3-10.txt and it returns the lines it appears in. In this case it appears in many lines and returns all of those lines.
 
 ## 3 ```grep -v  "[search]" [path and file]```
 This command will search for all lines in the file that do not contain the word in ```[search]``` (do not include brackets).
 ### Example 1
 ![Image](3.1.JPG)
+ 
+In this example, we search for the word "i" in the file 1468-6708-3-10.txt and it returns the lines that do not contain "i". In this case it does not appear in many lines and returns all of those lines.
 ### Example 2
 ![Image](3.2.JPG)
+In this example, we search for the word "i" in the file 1468-6708-3-10.txt and it returns the lines that do not contain "a". In this case it does not appear in many lines and returns all of those lines.
 
 ## 4 ```grep -v"[search]" [path]/*```
 This command will search for all lines in all the files inside the technical directory that do not contain the word in 
 ```[search]``` (do not include brackets) and return them along with the filenames.
 ### Example 1
 ![Image](4.1.JPG)
+
+In this example, we search for the word "braid" in the file all the files in biomed and it returns the lines and files that do not contain "braid". In this case it does not appear in many lines and returns all of those lines.
 ### Example 2
 ![Image](4.2.JPG)
+In this example, we search for the word "braid" in the file all the files in plos and it returns the lines and files that do not contain "braid". In this case it does not appear in many lines and returns all of those lines.
+
