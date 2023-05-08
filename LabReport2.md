@@ -14,7 +14,9 @@ path is not equal to anything yet, so the code resorts to the else statemenet, "
 Now, you can test the String aspect by typing ```/add-message?s=<string>``` where string  
 is whatever you want it to be. Path is now equal to ```/add-message?s=<string>``` and the code then seperates path into  
 queryString and parts where queryString signals that the user is adding a word and then the string newMessage is the word  
-the user chose. It will then be printed on page like below. I tried the strings "goodbye", "hello" and "1".  
+the user chose. It will then be printed on page like below. I tried the strings "goodbye", "hello" and "1". Handle works in a
+very unique way because it seperates the input string at the "=" then compares it to possible methods like add would ahve and s
+in the path. This then takes the new string and adds it to the message.
 ![Image](LabReport1Pic3.PNG)  
 After these I tested more, I tried "3". "4", "5", the result is below. Each time I did a new String it calls handle and updates newMessage with the new word  
 I want added and it makes sure the the path and parts are consistent otherwise it returns a error.  
