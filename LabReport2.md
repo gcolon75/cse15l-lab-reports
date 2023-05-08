@@ -5,10 +5,13 @@ I then applied the same engine that altered the numbers to alter the word that w
 and sdimply taking the string inside the specified index and then updating the page with it. Below is my code for StringSearch.java  
 
 ![Image](LabReport1Pic1.PNG)  
+
 # Testing the StringSearch  
 Next is using the command ```javac Server.java StringServer.java``` to run the files. Then to start  
 the server you would use ```java StringServer``` to begin the server. You will end up with the page looking like this.  
+
 ![Image](LabReport1Pic2.PNG)  
+
 At this point the server now works correctly and the methods handle are called where the string  
 path is not equal to anything yet, so the code resorts to the else statemenet, "404 Not Found"  
 Now, you can test the String aspect by typing ```/add-message?s=<string>``` where string  
@@ -17,10 +20,14 @@ queryString and parts where queryString signals that the user is adding a word a
 the user chose. It will then be printed on page like below. I tried the strings "goodbye", "hello" and "1". Handle works in a
 very unique way because it seperates the input string at the "=" then compares it to possible methods like add would ahve and s
 in the path. This then takes the new string and adds it to the message.
+
 ![Image](LabReport1Pic3.PNG)  
+
 After these I tested more, I tried "3". "4", "5", the result is below. Each time I did a new String it calls handle and updates newMessage with the new word  
 I want added and it makes sure the the path and parts are consistent otherwise it returns a error.  
+
 ![Image](LabReport1Pic4.PNG)  
+
 # Part 2 
 ## Choosing a bug  
 The bug I chose was in this code snipper  
@@ -58,7 +65,9 @@ public void testReverseInPlace1(){
   ```
   
 The test above returns true because since it is only 1 element in the array it just assigns it to the same spot and that is correct. Below is a picture of the symptoms of running the tests with the bug.  
+
 ![Image](LabReport1Pic5.PNG)  
+
 Here we see that the test with 1 index passed while the other test with 4 elements did not.
 The bug is in the ling of code  ```for(int i = 0; i < arr.length; i += 1) ```  
 The bug here is that when reversing the order of the list, it goes through the list and once it hits the middle of the list, it will begin reversing again because it will pull the original values from the begining. It is quire confusing to explain so an example is in the ist ```{1,2,3,4}``` the reverse order should be ```{4,3,2,1}``` however when this method executesm once the i hits the value of 2, it will grab the value that is on the opposite side of the list, in this case it would go  ```{4,3,3,4}``` because it grabs the old values. What needs to be fixed is adding a temporary variable to hold the original value before overriding it and make it equal the opposite index in the list, then also stopping the loop at the middle of the list to prevent giving it the old values again. The new code should look like this  
