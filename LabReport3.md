@@ -1,6 +1,7 @@
 # Researching Commands
 grep is a very useful command that searches for a pattern in text files. I will be finding ways
-to incorperate grep with other options for interesting combinations.
+to incorperate grep with other options for interesting combinations. I found these examples of grep by using ChatGPT 
+and my prompt was "common grep commands and their uses".
 
 ## 1 ```grep -c "[search]" [path and file]```
 The source for this was [ChatGPT](https://chat.openai.com/auth/login). System administrators often use ```grep -c``` to count the number of occurrences of certain keywords or error messages in log files. This helps them identify and troubleshoot issues more efficiently. For this was This combination will search for whatever you replace ```[search]```  (do not include brackets) and ```-c``` will count
