@@ -24,7 +24,7 @@
 
 ![Image](4.1.8.JPG)
 
-42 j, 12 l, c, <backspace>, 2, <esc> :wq!
+42 ```j```, 12 ```l```, ```c```, ```<backspace>```, ```2```, ```<esc>```, ```:wq!```
   
 ## Step 8: Run the tests, demonstrating that they now succeed (<up arrow> <up arrow> <enter>)
   
